@@ -10,7 +10,7 @@
 GoXStream is an open-source, Flink-inspired **stream processing engine written in Go**—with a beautiful React dashboard for visual pipeline design, job submission, and history.
 Build and run real-time data pipelines with file, database, or Kafka sources and sinks.
 
-## 🚀 Features
+## Features
 
 - **Modular pipeline engine (in Go):** Compose pipelines from map, filter, reduce, window, time-window, and more
 - **Dynamic REST API:** Submit pipelines and configure sources, sinks, operators via JSON
@@ -29,7 +29,7 @@ Build and run real-time data pipelines with file, database, or Kafka sources and
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ npm install
 npm start
 ```
 
-### 5. 🧩 Example: Submit a Pipeline via UI or REST
+### 5. Example: Submit a Pipeline via UI or REST
 
 _**Simple Map:**_
 
@@ -130,7 +130,7 @@ _**With Watermark/Late Event Support:**_
 ```
 ---
 
-### 🖥️ Visual Pipeline Designer (UI)
+### Visual Pipeline Designer (UI)
 - GoXStream’s UI lets you visually build pipelines (drag/drop), edit operator parameters, and export as JSON to run jobs.
 
 - Submitted jobs and their configs are saved in a beautiful job history.
@@ -232,7 +232,7 @@ Paris,1,2024-07-04T15:00:10Z,1
 
 ---
 
-### 🛠️ Architecture
+### Architecture
 
 ```bash
 [Source] --> [Map] --> [Filter] --> [Window/Reduce] --> [Sink]
@@ -247,7 +247,7 @@ Paris,1,2024-07-04T15:00:10Z,1
 
 ---
 
-### 📝 JSON Job Spec
+### JSON Job Spec
 
 ***A pipeline is defined by a simple JSON:***
 
@@ -275,7 +275,7 @@ Paris,1,2024-07-04T15:00:10Z,1
 
 ---
 
-### 📚 Operator Types
+### Operator Types
 
 ```bash
 | Type             | Description              | Example Params                        |
@@ -289,7 +289,7 @@ Paris,1,2024-07-04T15:00:10Z,1
 
 ---
 
-### 🧑‍💻 Extending GoXStream
+### Extending GoXStream
 
 _Add New Operators: Implement the Operator interface and add a factory to the operator registry._
 
@@ -299,7 +299,7 @@ _React UI Integration: Planned for interactive pipeline creation and monitoring.
 
 ---
 
-### 🔜 Roadmap
+### Roadmap
 
 - [x] Dynamic operator/source/sink registry
 
@@ -323,8 +323,8 @@ _React UI Integration: Planned for interactive pipeline creation and monitoring.
 
 ---
 
-### 🙌 Contributing
+### Contributing
 ***PRs, issues, and ideas are welcome!
 Fork and submit improvements or new features—let’s build a great Go stream engine together!***
 
-### GoXStream — Streaming, the Go way! 🚀
+### GoXStream — Streaming, the Go way! 
