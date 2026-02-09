@@ -84,6 +84,7 @@ _**Simple Map:**_
   ],
   "sink": { "type": "file", "path": "output.csv" }
 }
+
 ```
 
 _**Windowed Reduce:**_
